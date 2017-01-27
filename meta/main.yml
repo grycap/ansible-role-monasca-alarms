@@ -1,4 +1,3 @@
----
 galaxy_info:
   author: Tim Kuhlman
   description: Sets up default alarm definitions for Monasca
@@ -6,15 +5,11 @@ galaxy_info:
   license: Apache
   min_ansible_version: 1.7
   platforms:
-  - name: GenericLinux
-    versions:
-    - all
   - name: Ubuntu
     versions:
-    - trusty
-  - name: Debian
-    versions:
-    - jessie
-  categories:
-  - monitoring
+    - xenial
+  galaxy_tags:
+    - monasca
+    - monasca-alarms
+
 dependencies: []
