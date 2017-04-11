@@ -16,6 +16,8 @@
     - openstack_alarms
     - service_alarms
   register: default_notification
+  retries: 5
+  delay: 5  
 
 # Include the various alarm sets
 - include: system.yml
