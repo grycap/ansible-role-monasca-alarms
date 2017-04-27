@@ -17,7 +17,7 @@
     - service_alarms
   register: default_notification
   retries: 5
-  delay: 5  
+  delay: 10  
 
 # Include the various alarm sets
 - include: system.yml
